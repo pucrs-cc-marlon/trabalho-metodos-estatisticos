@@ -57,7 +57,7 @@ ROOT_URLCONF = 'trabalho_me_i.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'trabalho_me_i', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

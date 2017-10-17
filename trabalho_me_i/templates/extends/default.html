@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    {% block head %}
+
+    {% endblock %}
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    {% block title %}
+        <title>Default</title>
+    {% endblock %}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,800,300&subset=latin" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    {#    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">#}
+    {#    <link href="{% static 'css/pixeladmin.min.css' %}" rel="stylesheet" type="text/css"> #}
+    {#    <link href="{% static 'css/widgets.min.css' %}" rel="stylesheet" type="text/css"> #}
+
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/narrow-jumbotron.css' %}" rel="stylesheet" type="text/css">
+    {% block styles %}
+
+    {% endblock %}
+</head>
+<body {% block body-class %} {% endblock %}>
+{#<div class="px-content">#}
+{% block body %}
+
+
+{% endblock %}
+{#</div>#}
+<!-- Get jQuery from Google CDN -->
+<!--[if !IE]> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!-- <![endif]-->
+<!--[if lte IE 9]>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <![endif]-->
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+{% block scripts %}
+
+
+{% endblock %}
+</body>
+</html>
