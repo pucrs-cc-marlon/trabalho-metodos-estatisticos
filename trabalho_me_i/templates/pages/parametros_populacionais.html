@@ -1,0 +1,64 @@
+{% extends 'extends/default.html' %}
+{% load static %}
+{% block styles %}
+
+{% endblock %}
+{% block title %}
+    <title>Parâmetros Populacionais</title>
+{% endblock %}
+{% block body %}
+    <div class="container">
+        {% include 'includes/navbar.html' %}
+        {% for parametro in parametros %}
+            <div class="row">
+                <h1>Candidato {{ parametro.candidato }}</h1>
+            </div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Candidato</th>
+                    <th>Qtd de Votos</th>
+                    <th>Proporção</th>
+                    <th>Méd. de Idade</th>
+                    <th>Variância</th>
+                    <th>Desvio Padrão</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{ parametro.candidato }}</td>
+                    <td>{{ parametro.total }}</td>
+                    <td>{{ parametro.proporcao|floatformat }}%</td>
+                    <td>{{ parametro.media|floatformat:4 }}</td>
+                    <td>{{ parametro.variancia|floatformat:4 }}</td>
+                    <td>{{ parametro.desvio_padrao|floatformat:4 }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h3>Tabela de Frequências - Candidato {{ parametro.candidato }}</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>i</th>
+                    <th>xi</th>
+                    <th>fi</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for tabela in parametro.tabela %}
+                    <tr>
+                        <td>{{ tabela.indice }}</td>
+                        <td>{{ tabela.xi }}</td>
+                        <td>{{ tabela.fi }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <hr>
+        {% endfor %}
+        {% include 'includes/footer.html' %}
+    </div>
+{% endblock %}
+{% block scripts %}
+
+{% endblock %}

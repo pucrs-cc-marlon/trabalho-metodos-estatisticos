@@ -1,0 +1,60 @@
+{% extends 'extends/default.html' %}
+{% load static %}
+{% block styles %}
+
+{% endblock %}
+{% block title %}
+    <title>População</title>
+{% endblock %}
+{% block body %}
+    <div class="container">
+        {% include 'includes/navbar.html' %}
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Idade</th>
+                    <th>Candidato</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for p in populacao %}
+                    <tr>
+                        <td>{{ p.id_populacao }}</td>
+                        <td>{{ p.idade }}</td>
+                        <td>{{ p.candidato }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    {% if populacao.has_previous %}
+                        <li class="page-item">
+                            <a class="page-link" href="/populacao/?page={{ populacao.previous_page_number }}" tabindex="-1">Anterior</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+                        </li>
+                    {% endif %}
+                    {% if populacao.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="/populacao/?page={{ populacao.next_page_number }}">Próxima</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Próxima</a>
+                        </li>
+                    {% endif %}
+
+                </ul>
+            </nav>
+        </div>
+        {% include 'includes/footer.html' %}
+    </div>
+{% endblock %}
+{% block scripts %}
+
+{% endblock %}

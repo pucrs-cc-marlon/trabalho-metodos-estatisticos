@@ -1,0 +1,3 @@
+docker run --name trabalho_me_i_db -e POSTGRES_PASSWORD=senha_secreta -d postgres
+export DATABASE_URL=postgres://postgres:senha_secreta@172.17.0.2:5432/postgres
+postgres://USER:PASSWORD@HOST:PORT/NAME
