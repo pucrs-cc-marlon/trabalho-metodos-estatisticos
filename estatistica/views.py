@@ -55,10 +55,10 @@ class ParametrosPopulacionaisView(View):
 
         # print(populacao_dados[0])
 
-        variancia_a = self.variancia(tabela_a, populacao_dados_a['media'], populacao_dados_a['qtd'] + populacao_dados_c['qtd'])
-        variancia_c = self.variancia(tabela_c, populacao_dados_c['media'], populacao_dados_c['qtd'])
-
         total = populacao_dados_a['qtd'] + populacao_dados_c['qtd']
+
+        variancia_a = self.variancia(tabela_a, populacao_dados_a['media'], total)
+        variancia_c = self.variancia(tabela_c, populacao_dados_c['media'], total)
 
         desvio_padrao_a = self.desvio_padrao(variancia_a)
         desvio_padrao_c = self.desvio_padrao(variancia_c)
@@ -113,3 +113,10 @@ class ParametrosPopulacionaisView(View):
             indice += 1
 
         return list_frequencia
+
+
+class ComportamentoEstimadoresView(View):
+    template_name = 'pages/comportamentos_estimadores.html'
+
+    def get(self, request, *args, **kwargs):
+        pass
