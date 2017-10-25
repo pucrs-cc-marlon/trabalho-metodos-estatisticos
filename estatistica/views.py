@@ -63,9 +63,10 @@ class ParametrosPopulacionaisView(View):
         desvio_padrao_a = self.desvio_padrao(variancia_a)
         desvio_padrao_c = self.desvio_padrao(variancia_c)
 
+        tabelas = [{'candidato': 'A', 'tabela': tabela_a}, {'candidato': 'C', 'tabela': tabela_c}]
+
         parametros.append(
             {'candidato': 'A',
-             'tabela': tabela_a,
              'media': populacao_dados_a['media'],
              'total': populacao_dados_a['qtd'],
              'proporcao': (populacao_dados_a['qtd']/total) * 100,
@@ -76,7 +77,6 @@ class ParametrosPopulacionaisView(View):
 
         parametros.append(
             {'candidato': 'C',
-             'tabela': tabela_c,
              'media': populacao_dados_c['media'],
              'total': populacao_dados_c['qtd'],
              'proporcao': (populacao_dados_c['qtd']/total) * 100,
@@ -85,7 +85,7 @@ class ParametrosPopulacionaisView(View):
              }
         )
 
-        return render(request, self.template_name, {'parametros': parametros, 'page': 'parametros'})
+        return render(request, self.template_name, {'parametros': parametros, 'tabelas': tabelas, 'page': 'parametros'})
 
     def variancia(self, frequencias, media, qtd):
         soma = 0
