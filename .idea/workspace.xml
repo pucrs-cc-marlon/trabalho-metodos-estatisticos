@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5d40bb-abd8-453b-978c-84410abc1ac5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica/views.py" afterPath="$PROJECT_DIR$/estatistica/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod.env" afterPath="$PROJECT_DIR$/prod.env" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/settings/common.py" afterPath="$PROJECT_DIR$/trabalho_me_i/settings/common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/estatistica/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+            <state relative-caret-position="194">
+              <caret line="57" column="113" lean-forward="true" selection-start-line="57" selection-start-column="113" selection-end-line="57" selection-end-column="113" />
               <folding>
                 <element signature="e#326#498#0" expanded="false" />
                 <element signature="e#542#1066#0" expanded="false" />
@@ -32,31 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parametros_populacionais.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+            <state relative-caret-position="144">
+              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trabalho_me_i/settings/common.py">
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev_settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trabalho_me_i/settings/dev_settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="43" lean-forward="true" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+            <state relative-caret-position="112">
+              <caret line="7" column="98" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -90,9 +80,7 @@
       <list>
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/extends.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html.py" />
-        <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/includes/footer.html" />
-        <option value="$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/dados_iniciais.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/blocks.html" />
         <option value="$PROJECT_DIR$/estatistica/models.py" />
@@ -121,9 +109,11 @@
         <option value="$PROJECT_DIR$/dev-docker/run_web.sh" />
         <option value="$PROJECT_DIR$/trabalho_me_i/settings/server_settings.py" />
         <option value="$PROJECT_DIR$/prod.env" />
-        <option value="$PROJECT_DIR$/estatistica/views.py" />
         <option value="$PROJECT_DIR$/trabalho_me_i/settings/common.py" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" />
+        <option value="$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html" />
+        <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" />
+        <option value="$PROJECT_DIR$/estatistica/views.py" />
       </list>
     </option>
   </component>
@@ -198,6 +188,19 @@
               <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
               <item name="estatistica" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
+              <item name="estatistica" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
+              <item name="estatistica" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +219,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="SearchEverywhereHistoryKey" value="dev&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/dev_settings.py&#10;comm&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;parametros_populacionais&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;ser&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;urls&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/urls.py&#10;url&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;para&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;nav&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/includes/navbar.html&#10;models&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/models.py&#10;mod&#9;FILE&#9;file:///home/marlon/.virtualenvs/metodos_estatisticos/lib/python3.5/site-packages/django/contrib/auth/models.py&#10;populacao&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/populacao.html" />
+    <property name="SearchEverywhereHistoryKey" value="view&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/views.py&#10;bootstrap&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/static/css/bootstrap.css&#10;def&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/extends/default.html&#10;inde&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/index.html&#10;dev&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/dev_settings.py&#10;comm&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;parametros_populacionais&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;ser&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;urls&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/urls.py&#10;url&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;para&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;nav&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/includes/navbar.html&#10;models&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/models.py&#10;mod&#9;FILE&#9;file:///home/marlon/.virtualenvs/metodos_estatisticos/lib/python3.5/site-packages/django/contrib/auth/models.py&#10;populacao&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/populacao.html" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -321,45 +324,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/populacao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="113" lean-forward="false" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estatistica/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -413,20 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -485,14 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="113" lean-forward="false" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
           <folding />
         </state>
       </provider>
@@ -685,19 +627,8 @@
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/settings/dev_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="true" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estatistica/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
-          <folding>
-            <element signature="e#326#498#0" expanded="false" />
-            <element signature="e#542#1066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,11 +640,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/static/imgs/GitHub_Logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/static/imgs/aws_logo_smile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/static/imgs/aws.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="true" selection-start-line="0" selection-start-column="36" selection-end-line="1" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/remote_sources/1565641509/249573926/importlib/_bootstrap_external.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="35" column="180" lean-forward="false" selection-start-line="35" selection-start-column="180" selection-end-line="35" selection-end-column="180" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="98" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="57" column="113" lean-forward="true" selection-start-line="57" selection-start-column="113" selection-end-line="57" selection-end-column="113" />
+          <folding>
+            <element signature="e#326#498#0" expanded="false" />
+            <element signature="e#542#1066#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

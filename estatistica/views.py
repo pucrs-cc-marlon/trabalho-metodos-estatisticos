@@ -47,15 +47,15 @@ class ParametrosPopulacionaisView(View):
         populacao_dados_c = Populacao.objects.filter(
             candidato__iexact='C').aggregate(media=Avg('idade'), qtd=Count('candidato'))
 
-        cand_a = Populacao.objects.filter(candidato__iexact='A')
-        cand_c = Populacao.objects.filter(candidato__iexact='C')
+        cand_a = Populacao.objects.filter(candidato__iexact='A').order_by('-idade')
+        cand_c = Populacao.objects.filter(candidato__iexact='C').order_by('-idade')
 
         tabela_a = self.tabela_de_frequencia(cand_a)
         tabela_c = self.tabela_de_frequencia(cand_c)
 
         # print(populacao_dados[0])
 
-        variancia_a = self.variancia(tabela_a, populacao_dados_a['media'], populacao_dados_a['qtd'])
+        variancia_a = self.variancia(tabela_a, populacao_dados_a['media'], populacao_dados_a['qtd'] + populacao_dados_c['qtd'])
         variancia_c = self.variancia(tabela_c, populacao_dados_c['media'], populacao_dados_c['qtd'])
 
         total = populacao_dados_a['qtd'] + populacao_dados_c['qtd']

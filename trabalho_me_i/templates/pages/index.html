@@ -1,6 +1,11 @@
 {% extends 'extends/default.html' %}
+{% load static %}
 {% block head %}
-
+<style>
+    .marketing h4{
+        margin-top: 20px;
+    }
+</style>
 
 {% endblock %}
 {% block title %}
@@ -11,31 +16,38 @@
         {% include 'includes/navbar.html' %}
         <div class="jumbotron">
             <h1 class="display-3">Trabalho Métodos Estatísticos</h1>
-            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+            <p class="lead">O trabalho consiste em </p>
+            <p><a class="btn btn-lg btn-success" href="/populacao/" role="button">População</a></p>
         </div>
-
+        <div class="row">
+            <h3 class="text-center">Tecnologias Utilizadas</h3>
+        </div>
         <div class="row marketing">
             <div class="col-lg-6">
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+                <h4>Amazon AWS</h4>
+                <a href="http://aws.amazon.com/what-is-cloud-computing" target="_blank"><img src="{% static 'imgs/aws.png' %}" alt="Powered by AWS Cloud Computing" class="img-fluid"></a>
 
-                <h4>Subheading</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+                <h4>Python</h4>
+                <a href="https://www.python.org/" target="_blank"><img src="{% static 'imgs/python.png' %}" alt="Powered by Python" class="img-fluid"></a>
 
-                <h4>Subheading</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <h4>Django</h4>
+                <a href="https://www.djangoproject.com/" target="_blank"><img src="{% static 'imgs/django-logo-positive.png' %}" alt="Powered by Django Framework" class="img-fluid"></a>
+
+                <h4>Github</h4>
+                <a href="https://www.github.com/" target="_blank"><img src="{% static 'imgs/GitHub_Logo.png' %}" alt="Powered by Github" class="img-fluid"></a>
+
             </div>
 
             <div class="col-lg-6">
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+                <h4>PostgreSQL</h4>
+                <a href="https://www.postgresql.org/" target="_blank"><img src="{% static 'imgs/postgresql-logo.png' %}" alt="Powered by PostgreSQL" class="img-fluid"></a>
 
-                <h4>Subheading</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+                <h4>Docker</h4>
+                <a href="https://www.docker.com/" target="_blank"><img src="{% static 'imgs/horizontal_large.png' %}" alt="Powered by Docker" class="img-fluid"></a>
 
-                <h4>Subheading</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <h4>Bootstrap</h4>
+                <a href="https://getbootstrap.com/" target="_blank"><img src="{% static 'imgs/bootstrap.png' %}" alt="Powered by Bootstrap" class="img-fluid"></a>
+
             </div>
         </div>
 
