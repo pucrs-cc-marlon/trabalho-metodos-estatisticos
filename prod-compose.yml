@@ -1,0 +1,26 @@
+version: '3'
+# PROD SETTINGS
+services:
+  web:
+    restart: always
+    env_file:
+      - prod.env
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+    expose:
+      - "8000"
+    volumes:
+      - ./code:/code
+      - /static:/static
+    command: /usr/local/bin/gunicorn trabalho_me_i.wsgi:application -w 2 -b :8000
+
+  nginx:
+    restart: always
+    build: ./nginx/
+    ports:
+      - "80:80"
+    volumes:
+      - /static:/static
+    depends_on:
+      - web
