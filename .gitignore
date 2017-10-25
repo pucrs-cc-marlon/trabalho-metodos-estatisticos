@@ -1,4 +1,5 @@
 venv
 *.pyc
 staticfiles
-.env
+dev.env
+prod.env
