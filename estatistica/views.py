@@ -1,4 +1,6 @@
 from decimal import Decimal
+from random import choice
+
 from django.views import View
 from django.db.models import Avg, Count
 from django.shortcuts import render
@@ -120,3 +122,13 @@ class ComportamentoEstimadoresView(View):
 
     def get(self, request, *args, **kwargs):
         pass
+
+    def get_subconjunto(self, usuarios):
+        cont = 0
+        subconjunto = set()
+        while cont < 15:
+            u = choice(usuarios)
+            if u not in subconjunto:
+                subconjunto.add(u)
+                cont += 1
+        return subconjunto

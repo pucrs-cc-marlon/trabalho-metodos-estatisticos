@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5d40bb-abd8-453b-978c-84410abc1ac5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica/views.py" afterPath="$PROJECT_DIR$/estatistica/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +19,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/estatistica/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="52" column="52" lean-forward="false" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="662">
+              <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
               <folding>
-                <element signature="e#326#498#0" expanded="false" />
-                <element signature="e#542#1066#0" expanded="false" />
+                <element signature="e#353#525#0" expanded="false" />
+                <element signature="e#569#1093#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -714,11 +712,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/estatistica/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="52" column="52" lean-forward="false" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="662">
+          <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
           <folding>
-            <element signature="e#326#498#0" expanded="false" />
-            <element signature="e#542#1066#0" expanded="false" />
+            <element signature="e#353#525#0" expanded="false" />
+            <element signature="e#569#1093#0" expanded="false" />
           </folding>
         </state>
       </provider>
