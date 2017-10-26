@@ -1,0 +1,70 @@
+{% extends 'extends/default.html' %}
+{% load static %}
+{% block styles %}
+
+{% endblock %}
+{% block title %}
+
+{% endblock %}
+{% block body %}
+    <div class="container">
+        {% include 'includes/navbar.html' %}
+        <div class="row">
+            <h1>Medidas</h1>
+        </div>
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Média</th>
+                    <th>Desvio Padrão</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>População</td>
+                    <td>{{ media_populacao|floatformat:4 }}</td>
+                    <td>{{ desvio_padrao_populacao|floatformat:4 }}</td>
+                </tr>
+                <tr>
+                    <td>Amostra</td>
+                    <td>{{ media_amostra|floatformat:4 }}</td>
+                    <td>{{ p_chapeu_x_normal|floatformat:4 }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Amostra</th>
+                    <th>Média</th>
+                    <th>Int. Confiança (95%)</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for amostra in amostras %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>
+                            {% for idade in amostra.idades %}
+                                {{ idade.idade }}{% if not forloop.last %},{% endif %}
+                            {% endfor %}
+                        </td>
+                        <td>{{ amostra.media|floatformat:4 }}</td>
+                        <td>[{{ amostra.intervalo_de_confianca.0|floatformat:4 }}; {{ amostra.intervalo_de_confianca.1|floatformat:4 }}]</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% include 'includes/footer.html' %}
+    </div>
+{% endblock %}
+{% block scripts %}
+
+{% endblock %}

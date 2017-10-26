@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5d40bb-abd8-453b-978c-84410abc1ac5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica/management/commands/createsu.py" afterPath="$PROJECT_DIR$/estatistica/management/commands/createsu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica/urls.py" afterPath="$PROJECT_DIR$/estatistica/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica/utils.py" afterPath="$PROJECT_DIR$/estatistica/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica/views.py" afterPath="$PROJECT_DIR$/estatistica/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/estatistica/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+            <state relative-caret-position="482">
+              <caret line="173" column="8" lean-forward="false" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
               <folding>
-                <element signature="e#353#525#0" expanded="false" />
-                <element signature="e#569#1093#0" expanded="false" />
+                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#352#524#0" expanded="false" />
+                <element signature="e#568#1092#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
+      <file leaf-file-name="comportamentos_estimadores.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="176">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -42,18 +48,28 @@
       <file leaf-file-name="parametros_populacionais.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="34" column="69" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="69" />
+            <state relative-caret-position="336">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estatistica/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="98" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="98" />
+            <state relative-caret-position="64">
+              <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estatistica/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -64,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -91,11 +107,8 @@
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/dados_iniciais.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/blocks.html" />
         <option value="$PROJECT_DIR$/estatistica/models.py" />
-        <option value="$PROJECT_DIR$/estatistica/utils.py" />
         <option value="$PROJECT_DIR$/trabalho_me_i/settings.py" />
         <option value="$PROJECT_DIR$/estatistica/management/commands/create_su.py" />
-        <option value="$PROJECT_DIR$/estatistica/management/commands/createsu.py" />
-        <option value="$PROJECT_DIR$/estatistica/urls.py" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html" />
         <option value="$PROJECT_DIR$/estatistica/management/commands/add_population.py" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/populacao.html" />
@@ -120,7 +133,11 @@
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" />
+        <option value="$PROJECT_DIR$/estatistica/utils.py" />
         <option value="$PROJECT_DIR$/estatistica/views.py" />
+        <option value="$PROJECT_DIR$/estatistica/urls.py" />
+        <option value="$PROJECT_DIR$/estatistica/management/commands/createsu.py" />
+        <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html" />
       </list>
     </option>
   </component>
@@ -138,10 +155,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1367" />
-    <option name="y" value="-11" />
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
     <option name="width" value="1368" />
-    <option name="height" value="780" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -193,20 +210,20 @@
             <path>
               <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
               <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
-              <item name="estatistica" type="462c0819:PsiDirectoryNode" />
+              <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
               <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
-              <item name="estatistica" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
               <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
-              <item name="estatistica" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +243,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="SearchEverywhereHistoryKey" value="popul&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;view&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/views.py&#10;bootstrap&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/static/css/bootstrap.css&#10;def&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/extends/default.html&#10;inde&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/index.html&#10;dev&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/dev_settings.py&#10;comm&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;parametros_populacionais&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;ser&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;urls&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/urls.py&#10;url&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;para&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;nav&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/includes/navbar.html&#10;models&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/models.py&#10;mod&#9;FILE&#9;file:///home/marlon/.virtualenvs/metodos_estatisticos/lib/python3.5/site-packages/django/contrib/auth/models.py&#10;populacao&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/populacao.html" />
+    <property name="SearchEverywhereHistoryKey" value="urls&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;popul&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;view&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/views.py&#10;bootstrap&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/static/css/bootstrap.css&#10;def&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/extends/default.html&#10;inde&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/index.html&#10;dev&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/dev_settings.py&#10;comm&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;parametros_populacionais&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;ser&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;url&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;para&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;nav&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/includes/navbar.html&#10;models&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/models.py&#10;mod&#9;FILE&#9;file:///home/marlon/.virtualenvs/metodos_estatisticos/lib/python3.5/site-packages/django/contrib/auth/models.py&#10;populacao&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/populacao.html" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -295,7 +312,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1367" y="-11" width="1368" height="780" extended-state="6" />
+    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -304,7 +321,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2003035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2003035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -331,13 +348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/populacao.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -351,7 +361,7 @@
         <state relative-caret-position="192">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#0#27#0" expanded="false" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -394,20 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/blocks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estatistica/management/commands/createsu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/metodos_estatisticos/lib/python3.5/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -427,14 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="21" column="82" lean-forward="false" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estatistica/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,16 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estatistica/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prod-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -570,7 +548,7 @@
         <state relative-caret-position="400">
           <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
-            <element signature="e#647#656#0" expanded="true" />
+            <element signature="e#647#656#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -686,6 +664,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/blocks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -702,22 +688,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/management/commands/createsu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatistica/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="34" column="69" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="69" />
+        <state relative-caret-position="336">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estatistica/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+        <state relative-caret-position="482">
+          <caret line="173" column="8" lean-forward="false" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
           <folding>
-            <element signature="e#353#525#0" expanded="false" />
-            <element signature="e#569#1093#0" expanded="false" />
+            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#352#524#0" expanded="false" />
+            <element signature="e#568#1092#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

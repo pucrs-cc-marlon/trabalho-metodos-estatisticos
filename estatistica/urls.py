@@ -6,4 +6,5 @@ urlpatterns = [
     url(r'^$', views.IndexView.as_view()),
     url(r'^populacao/$', views.VisualizarPopulacaoView.as_view()),
     url(r'^parametros/$', views.ParametrosPopulacionaisView.as_view()),
+    url(r'^estimadores/$', views.ComportamentoEstimadoresView.as_view()),
 ]
