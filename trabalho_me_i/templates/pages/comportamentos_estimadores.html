@@ -1,5 +1,5 @@
 {% extends 'extends/default.html' %}
-{% load static %}
+{% load static l10n %}
 {% block styles %}
 
 {% endblock %}
@@ -10,7 +10,8 @@
     <div class="container">
         {% include 'includes/navbar.html' %}
         <div class="row">
-            <h1>Medidas</h1>
+            <h1>Comportamentos Estimadores</h1>
+            <p>Para a população que votou no candidato <strong>A</strong></p>
         </div>
         <div class="row">
             <table class="table">
@@ -35,15 +36,43 @@
                 </tbody>
             </table>
         </div>
+        {% comment %}<hr>
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>X Barra</th>
+                    <th>P Chapéu</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{ p_chapeu_teorema|floatformat:4 }}</td>
+                    <td>{{ p_chapeu_x_normal|floatformat:4 }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>{% endcomment %}
+        <hr>
+        <div class="row">
+            <div id="histograma"></div>
+        </div>
         <hr>
         <div class="row">
             <table class="table">
                 <thead>
                 <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th colspan="2">Int. Confiança (95%)</th>
+                </tr>
+                <tr>
                     <th>#</th>
                     <th>Amostra</th>
                     <th>Média</th>
-                    <th>Int. Confiança (95%)</th>
+                    <th>Lim. Inf.</th>
+                    <th>Lim. Sup.</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -56,7 +85,8 @@
                             {% endfor %}
                         </td>
                         <td>{{ amostra.media|floatformat:4 }}</td>
-                        <td>[{{ amostra.intervalo_de_confianca.0|floatformat:4 }}; {{ amostra.intervalo_de_confianca.1|floatformat:4 }}]</td>
+                        <td>{{ amostra.intervalo_de_confianca.0|floatformat:4 }}</td>
+                        <td>{{ amostra.intervalo_de_confianca.1|floatformat:4 }}</td>
                     </tr>
                 {% endfor %}
                 </tbody>
@@ -66,5 +96,37 @@
     </div>
 {% endblock %}
 {% block scripts %}
-
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var y = [{% for amostra in amostras %}{{ amostra.media|unlocalize }}{% if not forloop.last %},{% endif %}{% endfor %}];
+            var x = [{% for amostra in amostras %}{{ forloop.counter }}{% if not forloop.last %},{% endif %}{% endfor %}];
+            var trace = {
+                x: x,
+                y: y,
+                type: 'bar',
+                histnorm: 'percent',
+                name: 'number',
+            };
+            var data = [trace];
+            var layout = {
+                title: 'Médias Amostras - Gráfico',
+                xaxis: {
+                    title: 'Número da Amostra',
+                    tickfont: {
+                        size: 14,
+                        color: 'rgb(107, 107, 107)'
+                    }
+                },
+                yaxis: {
+                    title: 'Média',
+                    titlefont: {
+                        size: 16,
+                        color: 'rgb(107, 107, 107)'
+                    }
+                }
+            };
+            Plotly.newPlot('histograma', data, layout);
+        })
+    </script>
 {% endblock %}

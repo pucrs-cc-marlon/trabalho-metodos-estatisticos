@@ -13,7 +13,7 @@ services:
     volumes:
       - ./code:/code
       - /static:/static
-    command: /usr/local/bin/gunicorn trabalho_me_i.wsgi:application -w 2 -b :8000
+    command: ./web/run_web.sh
 
   nginx:
     restart: always

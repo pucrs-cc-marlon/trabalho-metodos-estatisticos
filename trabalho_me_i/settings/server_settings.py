@@ -1,3 +1,4 @@
+import dj_database_url
 from trabalho_me_i.settings.common import *
 
 DEBUG = False
@@ -17,14 +18,9 @@ STATIC_ROOT = '/static'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER':  'postgres',
-        'PASSWORD': 'docker',
-        'HOST': 'db',
-        'PORT': '5432',
-        'TEST': {
-            'NAME': 'test_e_cup',
-        },
-    },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
+
+DATABASES['default'].update(dj_database_url.config(conn_max_age=500))

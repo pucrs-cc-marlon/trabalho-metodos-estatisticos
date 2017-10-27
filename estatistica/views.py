@@ -149,7 +149,8 @@ class ComportamentoEstimadoresView(View):
                                                     'desvio_padrao_populacao': desvio_padrao_a,
                                                     'media_amostra': media_amostral,
                                                     # 'desvio_padrao_amostra': ,
-                                                    'amostras': amostras})
+                                                    'amostras': amostras,
+                                                    'page': 'estimadores'})
 
     def get_amostra(self, usuarios, desvio_padrao, total):
         cont = 0
@@ -184,7 +185,7 @@ class ComportamentoEstimadoresView(View):
         return total/len(amostras)
 
     def intervalo_confianca(self, media, desvio_padrao, n, n_grande):
-        resultado = 1.960 * (desvio_padrao / sqrt(n)) * sqrt((n_grande - n) / (n_grande - 1))
+        resultado = 1.96 * (desvio_padrao / sqrt(n)) * sqrt((n_grande - n) / (n_grande - 1))
         idade_de = media - resultado
         idade_ate = media + resultado
         return idade_de, idade_ate
