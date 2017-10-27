@@ -11,7 +11,9 @@
         {% include 'includes/navbar.html' %}
         <div class="row">
             <h1>Comportamentos Estimadores</h1>
-            <p>Para a população que votou no candidato <strong>A</strong></p>
+            <p>Para as pessoas que votaram no candidato <strong>A</strong></p>
+            <p><a href="/estimadores/">Atualizar</a> a página novas amostras serão geradas aleatóriamente e os valores amostrais atualizados.</p>
+            <p>Foram coletadas 500 amostras de tamanho n=15 e chegou-se aos seguintes valores.</p>
         </div>
         <div class="row">
             <table class="table">
@@ -36,23 +38,15 @@
                 </tbody>
             </table>
         </div>
-        {% comment %}<hr>
+        <hr>
         <div class="row">
-            <table class="table">
-                <thead>
-                <tr>
-                    <th>X Barra</th>
-                    <th>P Chapéu</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>{{ p_chapeu_teorema|floatformat:4 }}</td>
-                    <td>{{ p_chapeu_x_normal|floatformat:4 }}</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>{% endcomment %}
+            <p>Observando-se que os valores obtidos com várias amostras, respeitando o teorema do limite central e que permaneceu em torno dos valores da população,
+                constata-se que assemelha-se a teoria. </p>
+        </div>
+        <hr>
+        <div class="row">
+            <div id="barra"></div>
+        </div>
         <hr>
         <div class="row">
             <div id="histograma"></div>
@@ -126,7 +120,20 @@
                     }
                 }
             };
-            Plotly.newPlot('histograma', data, layout);
+            Plotly.newPlot('barra', data, layout);
+
+            var layout_histograma = {
+                title: 'Histograma',
+            };
+            var trace_histograma = {
+                x: y,
+                y: x,
+                type: 'histogram',
+                histnorm: 'percent',
+                name: 'number'
+            };
+            var data_histograma = [trace_histograma];
+            Plotly.newPlot('histograma', data_histograma, layout_histograma);
         })
     </script>
 {% endblock %}

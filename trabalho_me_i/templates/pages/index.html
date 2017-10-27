@@ -1,11 +1,11 @@
 {% extends 'extends/default.html' %}
 {% load static %}
 {% block head %}
-<style>
-    .marketing h4{
-        margin-top: 20px;
-    }
-</style>
+    <style>
+        .marketing h4{
+            margin-top: 20px;
+        }
+    </style>
 
 {% endblock %}
 {% block title %}
@@ -16,7 +16,24 @@
         {% include 'includes/navbar.html' %}
         <div class="jumbotron">
             <h1 class="display-3">Trabalho Métodos Estatísticos</h1>
-            <p class="lead">O trabalho consiste em </p>
+            <p class="lead">Aluno: Marlon Baptista de Quadros</p>
+            <p class="lead">
+                O trabalho busca solucionar questões sobre distribuição amostral, estimação e intervalos de confiança, sobre de uma
+                população. Essa base de dados possui informações sobre a idade e o candidato que a pessoa votou.
+                Os candidatos são <strong>A</strong> e <strong>C</strong>.
+            </p>
+            <p class="lead">
+                Na página <a href="/populacao/">População</a> é possível encontrar todos os dados da população.
+            </p>
+            <p class="lead">
+                Na página <a href="/parametros/">Parâmetros</a> é possível encontrar os Parâmetros Populacionais (Proporção de votos de cada candidato, média e desvio padrão da idade).
+            </p>
+            <p class="lead">
+                Na página <a href="/estimadores/">Estimadores</a> é possível encontrar 500 amostras, distribuição amostral e intervalos de confiança de 95%.
+            </p>
+            <p class="lead">
+                O código fonte pode ser encontrado no <a href="https://github.com/pucrs-cc-marlon/trabalho-metodos-estatisticos" target="_blank">Github</a>.
+            </p>
             <p><a class="btn btn-lg btn-success" href="/populacao/" role="button">População</a></p>
         </div>
         <div class="row">
@@ -47,6 +64,9 @@
 
                 <h4>Bootstrap</h4>
                 <a href="https://getbootstrap.com/" target="_blank"><img src="{% static 'imgs/bootstrap.png' %}" alt="Powered by Bootstrap" class="img-fluid"></a>
+
+                <h4>Plotly</h4>
+                <a href="https://plot.ly/" target="_blank"><img src="{% static 'imgs/plotly-logo.png' %}" alt="Powered by Plotly" class="img-fluid"></a>
 
             </div>
         </div>

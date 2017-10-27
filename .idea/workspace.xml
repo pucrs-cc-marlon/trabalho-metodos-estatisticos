@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5d40bb-abd8-453b-978c-84410abc1ac5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/run_web.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estatistica/static/imgs/plotly-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nginx/sites-enabled/consorcioservopa" afterPath="$PROJECT_DIR$/nginx/sites-enabled/trabalhomei" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-docker/run_web.sh" afterPath="$PROJECT_DIR$/dev-docker/run_web.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatistica/views.py" afterPath="$PROJECT_DIR$/estatistica/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prod-compose.yml" afterPath="$PROJECT_DIR$/prod-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/settings/common.py" afterPath="$PROJECT_DIR$/trabalho_me_i/settings/common.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/settings/server_settings.py" afterPath="$PROJECT_DIR$/trabalho_me_i/settings/server_settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" afterPath="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Dockerfile" afterPath="$PROJECT_DIR$/web/Dockerfile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,55 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estatistica/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="152" column="51" lean-forward="false" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-                <element signature="e#352#524#0" expanded="false" />
-                <element signature="e#568#1092#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prod-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prod-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev-compose.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_web.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-docker/run_web.sh">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_web.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/run_web.sh">
+      <file leaf-file-name="comportamentos_estimadores.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="208">
+              <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -97,9 +58,11 @@
       <find>peugeot_user</find>
       <find>white</find>
       <find>histogram</find>
+      <find>histograma</find>
     </findStrings>
     <replaceStrings>
       <replace>estatistica</replace>
+      <replace>barra</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -130,9 +93,7 @@
         <option value="$PROJECT_DIR$/dev-compose.yml" />
         <option value="$PROJECT_DIR$/trabalho_me_i/urls.py" />
         <option value="$PROJECT_DIR$/trabalho_me_i/settings/dev_settings.py" />
-        <option value="$PROJECT_DIR$/prod.env" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/extends/default.html" />
-        <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/estatistica/utils.py" />
         <option value="$PROJECT_DIR$/estatistica/urls.py" />
         <option value="$PROJECT_DIR$/estatistica/management/commands/createsu.py" />
@@ -140,12 +101,16 @@
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html" />
         <option value="$PROJECT_DIR$/trabalho_me_i/templates/includes/navbar.html" />
         <option value="$PROJECT_DIR$/estatistica/views.py" />
-        <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/trabalho_me_i/settings/server_settings.py" />
         <option value="$PROJECT_DIR$/dev-docker/run_web.sh" />
-        <option value="$PROJECT_DIR$/web/run_web.sh" />
         <option value="$PROJECT_DIR$/prod-compose.yml" />
+        <option value="$PROJECT_DIR$/web/Dockerfile" />
+        <option value="$PROJECT_DIR$/web/run_web.sh" />
+        <option value="$PROJECT_DIR$/prod.env" />
+        <option value="$PROJECT_DIR$/nginx/sites-enabled/trabalhomei" />
+        <option value="$PROJECT_DIR$/trabalho_me_i/settings/server_settings.py" />
+        <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html" />
+        <option value="$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html" />
       </list>
     </option>
   </component>
@@ -163,7 +128,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+    <option name="x" value="-1367" />
     <option name="y" value="-4" />
     <option name="width" value="1368" />
     <option name="height" value="773" />
@@ -215,16 +180,6 @@
               <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
               <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
-              <item name="dev-docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trabalho_me_i" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trabalho_me_i" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +198,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="SearchEverywhereHistoryKey" value="requ&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/requirements.txt&#10;serve&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;nav&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/includes/navbar.html&#10;common&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;urls&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;popul&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;view&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/views.py&#10;bootstrap&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/static/css/bootstrap.css&#10;def&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/extends/default.html&#10;inde&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/index.html&#10;dev&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/dev_settings.py&#10;comm&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;parametros_populacionais&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;ser&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;url&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;para&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;models&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/models.py&#10;mod&#9;FILE&#9;file:///home/marlon/.virtualenvs/metodos_estatisticos/lib/python3.5/site-packages/django/contrib/auth/models.py&#10;populacao&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/populacao.html" />
+    <property name="SearchEverywhereHistoryKey" value="esti&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/comportamentos_estimadores.html&#10;inde&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/index.html&#10;serve&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;requ&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/requirements.txt&#10;nav&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/includes/navbar.html&#10;common&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;urls&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;popul&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;view&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/views.py&#10;bootstrap&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/static/css/bootstrap.css&#10;def&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/extends/default.html&#10;dev&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/dev_settings.py&#10;comm&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/common.py&#10;parametros_populacionais&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;ser&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/settings/server_settings.py&#10;url&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/urls.py&#10;para&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/parametros_populacionais.html&#10;models&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/estatistica/models.py&#10;mod&#9;FILE&#9;file:///home/marlon/.virtualenvs/metodos_estatisticos/lib/python3.5/site-packages/django/contrib/auth/models.py&#10;populacao&#9;FILE&#9;file:///home/marlon/Projetos/Python/Django/trabalho_me_i/trabalho_me_i/templates/pages/populacao.html" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -255,6 +210,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/estatistica/static/imgs" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -315,7 +271,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <frame x="-1367" y="-4" width="1368" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -324,7 +280,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2003035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2003035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -429,14 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev-docker/anotacoes/login_docker.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -461,22 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/sites-enabled/consorcioservopa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database_local_cmds.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -496,29 +428,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="93" />
-          <folding>
-            <element signature="e#230#239#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,14 +443,6 @@
           <folding>
             <element signature="e#647#656#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prod.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,14 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/estatistica/management/commands/createsu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -675,14 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trabalho_me_i/settings/server_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/parametros_populacionais.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -691,10 +581,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev-docker/run_web.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prod.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="114" lean-forward="false" selection-start-line="1" selection-start-column="114" selection-end-line="1" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/settings/server_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/sites-enabled/trabalhomei">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/run_web.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prod-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/estatistica/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="152" column="51" lean-forward="false" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
+        <state relative-caret-position="-90">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <element signature="e#352#524#0" expanded="false" />
@@ -705,40 +685,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/comportamentos_estimadores.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="208">
+          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/run_web.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-docker/run_web.sh">
+    <entry file="file://$PROJECT_DIR$/trabalho_me_i/templates/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prod-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
           <folding />
         </state>
       </provider>
